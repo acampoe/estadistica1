@@ -90,12 +90,10 @@ h1 {
 /*Article in index page*/
 article.index {
   text-align: center;
-  font-family: Calibri;
   font-size: 18px;
 }
 /*Deuse*/
 article.li {
-  font-family: Calibri;
   font-size: 18px;
 }
 /*Properties for Header 3 in Quienes somos*/
@@ -136,6 +134,7 @@ table {
   margin: auto;
   padding: 20px;
 }
+<<<<<<< HEAD
 /*Properties for index image*/
 #imgsa {
   height: 500px;
@@ -145,6 +144,11 @@ table {
   box-shadow: 2px 2px 15px;
 }
 /*Properties for Unordered List of Equipo de Trabajo*/
+=======
+th {
+  font-weight: bold;
+}
+>>>>>>> 1147cdde72ca39f21b6369cec4e5953e7b68d65b
 #equipo {
   list-style: none;
   text-align: center;
@@ -161,7 +165,11 @@ img.osvaldo {
 a.trabajo {
   text-decoration: none;
 }
+<<<<<<< HEAD
 /*Icons in CONTACTENOS*/
 .icon{
+=======
+.icon {
+>>>>>>> 1147cdde72ca39f21b6369cec4e5953e7b68d65b
   height: 60px;
 }
