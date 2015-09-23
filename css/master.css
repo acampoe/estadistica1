@@ -6,8 +6,12 @@
   font-family: sketch;
   src: url(fonts/Sketch_Match.ttf);
 }
+* {
+  font-family: Ubuntu;
+}
 body {
   background-color: rgb(221, 221, 221);
+  margin: 0;
 }
 header {
   background-color: rgba(28, 28, 28, 1);
@@ -45,19 +49,17 @@ h1 {
   float: left;
 }
 #navigation li a {
+  font: 18px Ubuntu;
   display: block;
   padding: 8px 15px;
   text-decoration: none;
-  font-weight: bold;
   color: rgb(255, 255, 255);
   border-right: 1px solid #ccc;
-  font-size: 18px;
   height: 20px;
   width: 120px;
   text-align: center;
   background-color: rgb(0, 0, 0);
   transition: background .3s;
-  font-family: Calibri;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -65,30 +67,14 @@ h1 {
   background-color: rgb(30, 210, 0);
 }
 #navigation li a.sel {
-  display: block;
-  padding: 8px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  border-right: 1px solid #ccc;
-  font-size: 18px;
-  height: 20px;
-  width: 120px;
-  text-align: center;
   background-color: rgb(265, 161, 0);
-  transition: background .3s;
-  -moz-transition: width 1s, height 2s;
-  font-family: Calibri;
-  text-transform: uppercase;
-  letter-spacing: -1px;
 }
 #navigation li a.sel:hover {
-  background-color: rgb(30, 210, 0);
+  background-color: rgb(71, 0, 0);
 }
 #navigation li:first-child a {
   border-left: 1px solid #ccc;
 }
-section {}
 article.index {
   text-align: center;
   font-family: Calibri;
