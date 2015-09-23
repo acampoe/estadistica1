@@ -1,0 +1,319 @@
+@font-face {
+
+  font-family: downcome;
+
+  src: url(fonts/DOWNCOME.TTF);
+
+}
+
+@font-face {
+
+  font-family: sketch;
+
+  src: url(fonts/Sketch_Match.ttf);
+
+}
+
+body{
+
+  background-color: rgb(221, 221, 221);
+
+}
+
+header{
+
+  background-color: rgba(0, 0, 0, 1);
+
+  box-shadow: 0 2px 5px 20px;
+
+  text-align: center;
+
+  width: 100%;
+
+}
+
+h1{
+
+  text-shadow: 2px 2px 5px;
+
+  font-size: 70px;
+
+  font-family: downcome;
+
+  font-weight: normal;
+
+  color: white;
+
+}
+
+#navigation{
+
+  width: 100%;
+  float: left;
+
+	padding: 0 11px;
+	
+        margin-top: -48px;
+
+        margin-left: -15px;
+
+        margin-right: -150px;
+
+	margin-bottom: -15px;
+
+	list-style: none;
+
+	background-color: rgb(74, 74, 74);
+
+	border-bottom: 1px solid #ccc;
+
+	border-top: 1px solid #ccc;
+
+  height: 36px;
+
+  box-shadow: 0px 2px 5px grey;
+
+}
+
+#navigation ul {
+
+  margin: 0 auto;
+
+}
+
+#navigation li{
+
+  float: left;
+
+}
+
+#navigation li a{
+
+  display: block;
+
+	padding: 8px 15px;
+
+	text-decoration: none;
+
+	font-weight: bold;
+
+	color: rgb(255, 255, 255);
+
+	border-right: 1px solid #ccc;
+
+  font-size: 18px;
+
+  height: 20px;
+
+  width: 120px;
+
+  text-align: center;
+
+  background-color: rgb(74, 74, 74);
+
+  transition: width 100ms, height 100ms, background 50ms;
+
+  -moz-transition: width 1s, height 2s;
+
+  font-family: Calibri;
+
+  text-transform: uppercase;
+
+  letter-spacing: -1px;
+
+}
+
+#navigation li a:hover{
+
+  width: 130px;
+
+  height: 22px;
+
+  background-color: rgb(30, 210, 0);
+
+}
+
+#navigation li a.sel{
+
+  display: block;
+
+  padding: 8px 15px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  color: rgb(255, 255, 255);
+
+  border-right: 1px solid #ccc;
+
+  font-size: 18px;
+
+  height: 20px;
+
+  width: 120px;
+
+  text-align: center;
+
+  background-color: rgb(265, 161, 0);
+
+  transition: width 100ms, height 100ms, background 50ms;
+
+  -moz-transition: width 1s, height 2s;
+
+  font-family: Calibri;
+
+  text-transform: uppercase;
+
+  letter-spacing: -1px;
+
+}
+
+#navigation li a.sel:hover{
+
+  width: 130px;
+
+  height: 22px;
+
+  background-color: rgb(30, 210, 0);
+
+}
+
+#navigation li:first-child a{
+
+  border-left: 1px solid #ccc;
+
+}
+
+section{
+
+
+
+}
+
+article.index{
+
+  text-align: center;
+
+  font-family: Calibri;
+
+  font-size: 18px;
+
+}
+
+article.li{
+
+  font-family: Calibri;
+
+  font-size: 18px;
+
+}
+
+h3{
+
+  text-align: center;
+
+}
+
+h2{
+
+  text-align: center;
+
+  margin: auto;
+
+  padding: 10px;
+
+  width: 35%;
+
+  border-radius: 10px;
+
+  font-family: sketch;
+
+  font-size: 60px;
+
+}
+
+div.foot{
+  font-size: 13px;
+
+}
+
+div.c{
+
+  text-align: center;
+
+  font-size: 10px;
+
+}
+
+footer{
+
+    box-shadow: 0 -2px 10px;
+
+    background-color: rgb(265, 161, 0);
+
+    text-align: center;
+
+    padding: 0 11px;
+	
+    margin-left: -15px;
+
+    margin-right: -8px;
+
+    margin-bottom: -100px;
+}
+
+table{
+
+  margin: auto;
+
+  padding: 20px;
+
+}
+
+th{
+
+  font-weight: bold;
+
+}
+
+#imgsa{
+
+  height: 500px;
+
+  border-style: solid;
+
+  border-color: white;
+
+  border-radius: 1px;
+
+  box-shadow: 2px 2px 15px;
+
+}
+
+#equipo{
+
+  list-style:none;
+
+  text-align: center;
+
+}
+
+img.osvaldo{
+
+  height: 250px;
+
+border-style: solid;
+
+  border-color: white;
+
+  border-radius: 1px;
+
+  box-shadow: 2px 2px 15px;
+}
+
+a.trabajo{
+
+  text-decoration: none;
+
+}
