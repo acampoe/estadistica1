@@ -77,11 +77,9 @@ h1 {
 }
 article.index {
   text-align: center;
-  font-family: Calibri;
   font-size: 18px;
 }
 article.li {
-  font-family: Calibri;
   font-size: 18px;
 }
 h3 {
@@ -119,13 +117,6 @@ table {
 th {
   font-weight: bold;
 }
-#imgsa {
-  height: 500px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 1px;
-  box-shadow: 2px 2px 15px;
-}
 #equipo {
   list-style: none;
   text-align: center;
@@ -140,6 +131,6 @@ img.osvaldo {
 a.trabajo {
   text-decoration: none;
 }
-.icon{
+.icon {
   height: 60px;
 }
