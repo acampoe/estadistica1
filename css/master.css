@@ -1,24 +1,30 @@
+/*Add DOWNCOME font*/
 @font-face {
   font-family: downcome;
   src: url(fonts/DOWNCOME.TTF);
 }
+/*Add Sketch font. Currently not used*/
 @font-face {
   font-family: sketch;
   src: url(fonts/Sketch_Match.ttf);
 }
+/*Stablish Ubuntu font for all document*/
 * {
   font-family: Ubuntu;
 }
+/*Set background color for body and delete body margin*/
 body {
   background-color: rgb(221, 221, 221);
   margin: 0;
 }
+/*Set background for header, set shadow, align text in centre position*/
 header {
   background-color: rgba(28, 28, 28, 1);
   box-shadow: 0 0px 10px 10px black inset;
   text-align: center;
   width: 100%;
 }
+/*Properties for Header 1 in index.html*/
 h1 {
   text-shadow: 2px 2px 5px;
   font-size: 70px;
@@ -26,6 +32,7 @@ h1 {
   font-weight: normal;
   color: white;
 }
+/*Properties for nav bar in index.html*/
 #navigation {
   width: 100%;
   float: left;
@@ -42,12 +49,15 @@ h1 {
   box-shadow: 0px 2px 5px grey;
   position: fixed;
 }
+/*Properties for Unordered */
 #navigation ul {
   margin: 0 auto;
 }
+/*Properties for List Item in Unordered List of Nav bar in Index.html*/
 #navigation li {
   float: left;
 }
+/*Properties for nav bar links*/
 #navigation li a {
   font: 18px Ubuntu;
   display: block;
@@ -66,27 +76,33 @@ h1 {
 #navigation li a:hover {
   background-color: rgb(30, 210, 0);
 }
+/*Specifies when a link is selected*/
 #navigation li a.sel {
   background-color: rgb(265, 161, 0);
 }
 #navigation li a.sel:hover {
   background-color: rgb(71, 0, 0);
 }
+/*properties for HOME*/
 #navigation li:first-child a {
   border-left: 1px solid #ccc;
 }
+/*Article in index page*/
 article.index {
   text-align: center;
   font-family: Calibri;
   font-size: 18px;
 }
+/*Deuse*/
 article.li {
   font-family: Calibri;
   font-size: 18px;
 }
+/*Properties for Header 3 in Quienes somos*/
 h3 {
   text-align: center;
 }
+/*Deuse*/
 h2 {
   text-align: center;
   margin: auto;
@@ -96,13 +112,16 @@ h2 {
   font-family: sketch;
   font-size: 60px;
 }
+/*Container for footer*/
 div.foot {
   font-size: 13px;
 }
+/*Container for CopyRight*/
 div.c {
   text-align: center;
   font-size: 10px;
 }
+/*Properties for footer*/
 footer {
   box-shadow: 0 -2px 10px;
   background-color: rgb(265, 161, 0);
@@ -112,13 +131,12 @@ footer {
   margin-right: -8px;
   margin-bottom: -100px;
 }
+/*Properties for table in footer*/
 table {
   margin: auto;
   padding: 20px;
 }
-th {
-  font-weight: bold;
-}
+/*Properties for index image*/
 #imgsa {
   height: 500px;
   border-style: solid;
@@ -126,10 +144,12 @@ th {
   border-radius: 1px;
   box-shadow: 2px 2px 15px;
 }
+/*Properties for Unordered List of Equipo de Trabajo*/
 #equipo {
   list-style: none;
   text-align: center;
 }
+/*Leader Pic*/
 img.osvaldo {
   height: 250px;
   border-style: solid;
@@ -137,9 +157,11 @@ img.osvaldo {
   border-radius: 1px;
   box-shadow: 2px 2px 15px;
 }
+/*Properties for people fb links*/
 a.trabajo {
   text-decoration: none;
 }
+/*Icons in CONTACTENOS*/
 .icon{
   height: 60px;
 }
