@@ -1,0 +1,30 @@
+{
+  "name": "ministeriosaetas",
+  "version": "0.0.1",
+  "homepage": "https://github.com/acampoe/ministeriosaetas",
+  "authors": [
+    "Andrés Campo <andrescampoe@gmail.com>",
+    "Andres Ochoa <xgarlics@gmail.com>"
+  ],
+  "description": "Ministerio Saetas Web Site.",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "Ministerio",
+    "Saetas",
+    "Dios"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
