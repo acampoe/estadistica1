@@ -15,3 +15,9 @@ img.osvaldo {
 h3 {
   text-align: center;
 }
+
+/*Nuevo código*/
+h1 {
+  background-color: inherit;
+  color: rgb(57, 205, 159);
+}
