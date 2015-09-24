@@ -1,6 +1,6 @@
 /*Leader Pic*/
 img.osvaldo {
-  height: 250px;
+  height: 270px;
   border-style: solid;
   border-color: white;
   border-radius: 1px;
@@ -18,7 +18,8 @@ h3 {
 
 /*Nuevo código*/
 h1 {
-  background-color: inherit;
-  color: rgb(57, 205, 159);
   text-align: center;
+  background-color: rgb(140, 34, 249);
+  color: rgb(255, 0, 0);
+  font-size: 20px;
 }
