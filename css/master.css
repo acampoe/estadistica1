@@ -8,6 +8,11 @@
   font-family: sketch;
   src: url(fonts/Sketch_Match.ttf);
 }
+/*Add Ubuntu Regular font*/
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu.ttf);
+}
 /*Stablish Ubuntu font for all document*/
 * {
   font-family: Ubuntu;
