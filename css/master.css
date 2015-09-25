@@ -17,83 +17,75 @@
 * {
   font-family: Ubuntu;
 }
+html {
+  margin-top: -14px;
+}
 /*Set background color for body and delete body margin*/
 body {
-  background-color: rgb(221, 221, 221);
-  margin: 0;
+  background-color: rgb(29, 29, 29);
+  /* background-image: url("../img/bg.jpg"); */
+  /* background-repeat: repeat; */
+  color: white;
 }
 /*Set background for header, set shadow, align text in centre position*/
-header {
-  background-color: rgba(28, 28, 28, 1);
-  box-shadow: 0 0px 10px 10px black inset;
+.logo {
+  font-size: 3em;
   text-align: center;
-  width: 100%;
+  background-color: rgba(51, 51, 51, 1);
+  box-shadow: 0 0 50px 10px black inset;
 }
+
+nav {
+  background-color: rgb(71, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 20px 4px black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul .sel {
+  background-color: rgb(265, 161, 0);
+}
+
+nav ul .sel:hover {
+  background-color: rgb(71, 0, 0);
+}
+
+nav ul li {
+  padding: 1em;
+  transition: background-color .4s;
+  background-color: rgb(36, 36, 36);
+  width: 130px;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: rgb(30, 210, 0);
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
 /*Properties for Header 1 in index.html*/
 h1 {
   text-shadow: 2px 2px 5px;
-  font-size: 70px;
   font-family: downcome;
   font-weight: normal;
   color: white;
 }
-/*Properties for nav bar in index.html*/
-#navigation {
-  width: 100%;
-  float: left;
-  padding: 0 11px;
-  margin-top: -48px;
-  margin-left: -15px;
-  margin-right: -150px;
-  margin-bottom: -15px;
-  list-style: none;
-  background-color: rgb(71, 0, 0);
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
-  height: 36px;
-  box-shadow: 0px 2px 5px grey;
-  position: fixed;
-}
-/*Properties for Unordered */
-#navigation ul {
-  margin: 0 auto;
-}
-/*Properties for List Item in Unordered List of Nav bar in Index.html*/
-#navigation li {
-  float: left;
-}
-/*Properties for nav bar links*/
-#navigation li a {
-  font: 18px Ubuntu;
-  display: block;
-  padding: 8px 15px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  border-right: 1px solid #ccc;
-  height: 20px;
-  width: 150px;
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-  transition: background .3s;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-}
-#navigation li a:hover {
-  background-color: rgb(30, 210, 0);
-}
-/*Specifies when a link is selected*/
-#navigation li a.sel {
-  background-color: rgb(265, 161, 0);
-}
-#navigation li a.sel:hover {
-  background-color: rgb(71, 0, 0);
-}
-/*properties for HOME*/
-#navigation li:first-child a {
-  border-left: 1px solid #ccc;
-}
 /*Article in index page*/
-article{
+article {
   margin: 2px;
   text-align: center;
   font-size: 18px;
@@ -102,37 +94,14 @@ article{
 article.li {
   font-size: 18px;
 }
-
-/*Deuse*/
-h2 {
-  text-align: center;
-}
-/*Container for footer*/
-div.foot {
-  font-size: 13px;
-}
-/*Container for CopyRight*/
-div.c {
-  text-align: center;
-  font-size: 10px;
-}
 /*Properties for footer*/
 footer {
-  box-shadow: 0 -2px 10px;
   background-color: rgb(265, 161, 0);
   text-align: center;
-  padding: 0 11px;
-  margin-left: -15px;
-  margin-right: -8px;
-  margin-bottom: -100px;
+  padding: 1em;
+  box-shadow: 0 0 10px 5px black;
+  color: black;
 }
-/*Properties for table in footer*/
-table {
-  margin: auto;
-  padding: 20px;
-}
-
-
 /*Properties for people fb links*/
 a.trabajo {
   text-decoration: none;
@@ -140,4 +109,7 @@ a.trabajo {
 /*Icons in CONTACTENOS*/
 .icon{
   height: 60px;
+}
+img {
+  box-shadow: 0 0 30px 5px black;
 }
