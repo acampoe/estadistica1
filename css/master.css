@@ -35,6 +35,7 @@ body {
   box-shadow: 0 0 50px 10px black inset;
 }
 
+/*Navigation Style*/
 nav {
   background-color: rgb(71, 0, 0);
   position: fixed;
@@ -42,22 +43,21 @@ nav {
   width: 100%;
   box-shadow: 0 0 20px 4px black;
 }
-
+nav #menu {
+  display: none;
+}
 nav ul {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
 }
-
-nav ul .sel {
+nav ul #selected {
   background-color: rgb(265, 161, 0);
 }
-
-nav ul .sel:hover {
+nav ul #selected:hover {
   background-color: rgb(71, 0, 0);
 }
-
 nav ul li {
   padding: 1em;
   transition: background-color .4s;
@@ -65,17 +65,40 @@ nav ul li {
   width: 130px;
   text-align: center;
 }
-
 nav ul li:hover {
   background-color: rgb(30, 210, 0);
 }
-
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
 }
+@media (max-width: 800px) {
+  .logo {
+    font-size: 1.5em;
+  }
+  html {
+    margin-top: 35px;
+  }
+  img {
+    width: 90%;
+  }
+  nav #menu {
+    display: flex;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul li {
+    width: 100%;
+  }
+  nav ul li:not(#selected) {
+    display: none;
+  }
+}
+
+/*End - Navigation Style*/
 
 /*Properties for Header 1 in index.html*/
 h1 {
