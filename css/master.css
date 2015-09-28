@@ -137,6 +137,9 @@ table {
 a.trabajo {
   text-decoration: none;
 }
+a{
+  color: blue;
+}
 /*Icons in CONTACTENOS*/
 .icon{
   height: 60px;
