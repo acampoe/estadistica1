@@ -6,6 +6,6 @@ ul{
   border-style: solid;
   border-color: white;
   border-bottom-width: 40px;
-  box-shadow: 2px 2px 10px;
+  box-shadow: 1px 1px 5px 1px black;
   transform: rotate(1deg);
 }

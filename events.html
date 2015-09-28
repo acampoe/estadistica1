@@ -1,67 +1,70 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Ministerio Juvenil Saetas de Dios</title>
-  <meta name="MinSaetas">
-  <meta kewords="Ministerio Saetas MinSaetas Saetas de Dios Fahrenheit">
-  <link rel="stylesheet" href="css/master.css" charset="utf-8">
-  <link rel="stylesheet" href="css/events.css" charset="utf-8">
-</head>
-
-<body>
-  <nav>
-    <ul id="navigation">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">Quienes somos</a></li>
-      <li><a href="gallery.html">Galer&iacute;a</a></li>
-      <li><a href="events.html" class="sel">Eventos</a></li>
-      <li><a href="contact.html">Contacto</a></li>
-    </ul>
-  </nav>
-  <header>
-    <div id=logo>
-      <h1>Ministerio Juvenil Saetas de Dios</h1>
-    </div>
-  </header>
-  <section>
-    <article>
-      <h2>Reuniones Semanales</h2>
-      <p>
-        <img src="img/cultos.jpg" alt=""  class ="main_img"/> <br>
-        Cada s&aacute;bado, todos los integrantes de Saetas de Dios tienen una
-        cita para celebrar servicio especial organizado por j&oacute;venes
-        para Dios. <br> <a href="cultos.html">M&aacute;s informaci&oacute;n...</a>
-      </p>
-    </article>
-    <article>
-      <h2>Congreso Fahrenheit</h2>
-      <p>
-        <img src="img/congreso.jpg" alt=""  class ="main_img"/> <br>
-        Anualmente, tiene lugar el congreso juvenil. Organizado por saetas de Dios, donde
-        se congregan todos los j&oacute;venes del sector para presentar a Cristo
-        como la &uacute;nica soluci&oacute;n viable para la problem&aacute;tica de la sociedad. <br>
-        <a href="congreso.html">M&aacute;s informaci&oacute;n...</a>
-      </p>
-    </article>
-    <article>
-      <h2>Anotaciones Especiales</h2>
-      <p>
-        El Ministerio Juvenil organiza otras actividades con diferentes fines, en los que se encuentran: <br>
+  <head>
+    <meta charset="utf-8">
+    <title>Ministerio Juvenil Saetas de Dios</title>
+    <meta name="MinSaetas">
+    <meta kewords="Ministerio Saetas MinSaetas Saetas de Dios Fahrenheit">
+    <link rel="stylesheet" href="css/master.css" charset="utf-8">
+    <link rel="stylesheet" href="css/events.css" charset="utf-8">
+    <link rel="stylesheet" href="libs/normalize-css/normalize.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <nav>
         <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Quienes somos</a></li>
+          <li><a href="gallery.html">Galer&iacute;a</a></li>
+          <li id="selected"><a href="events.html">Eventos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+        <span id="menu" onclick="showMenu();">&nbsp;</span>
+      </nav>
+      <div class="logo">
+        <h1>Ministerio Juvenil Saetas de Dios</h1>
+      </div>
+    </header>
+    <section>
+      <article>
+        <h2>Reuniones Semanales</h2>
+        <p>
+          <img src="img/cultos.jpg" alt="" class="main_img"/>  <br>
+          Cada s&aacute;bado, todos los integrantes de Saetas de Dios tienen una
+          cita para celebrar servicio especial organizado por j&oacute;venes
+          para Dios. <br> <a href="cultos.html">M&aacute;s informaci&oacute;n...</a>
+        </p>
+      </article>
+      <article>
+        <h2>Congreso Fahrenheit</h2>
+        <p>
+          <img src="img/congreso.jpg" alt="" class="main_img"/> <br>
+          Anualmente, tiene lugar el congreso juvenil. Organizado por saetas de Dios, donde
+          se congregan todos los j&oacute;venes del sector para presentar a Cristo
+          como la &uacute;nica soluci&oacute;n viable para la problem&aacute;tica de la sociedad. <br>
+          <a href="congreso.html">M&aacute;s informaci&oacute;n...</a>
+        </p>
+      </article>
+      <article>
+        <h2>Anotaciones Especiales</h2>
+        <p>
+          El Ministerio Juvenil organiza otras actividades con diferentes fines, en los que se encuentran: <br>
+          <ul>
+            <li>
+              Confraternidad: <br> <br>
+              <img src="img/confraternidad.jpg" alt=""  class ="main_img"/>
+              <p>
+              Integraci&oacute;n de j&oacute;venes donde se hacen distintas din&aacute;micas.
+            </p>
+          </li>
           <li>
-            Confraternidad: <br> <br>
-            <img src="img/confraternidad.jpg" alt=""  class ="main_img"/>
+            Pro-fondos:
             <p>
-            Integraci&oacute;n de j&oacute;venes donde se hacen distintas din&aacute;micas.
+            Se organizan diferentes actividades para generar fondos para el sostenimiento
+            del mismo.
           </p>
         </li>
-        <li>
-          Pro-fondos:
-          <p>
-          Se organizan diferentes actividades para generar fondos para el sostenimiento
-          del mismo.
+          </ul>
         </p>
       </li>
       <li>
@@ -82,44 +85,19 @@
         </p>
       </li>
         </ul>
+      </article>
+    </section>
+    <footer>
+      <p>
+        <strong>Dirección:</strong> Carrera 23 # 71b - 263 <br>
+        <strong>Teléfono:</strong> (+57)(+9) XXX-XXXX <br>
       </p>
-    </article>
-  </section>
-  <br>
-  <br>
-  <footer>
-    <div class="foot">
-      <table>
-        <tr>
-          <th colspan="2">
-            Contacto
-          </th>
-        </tr>
-        <tr>
-          <th>
-            Direccion:
-          </th>
-          <td>
-            Carrera 13 # 71b - 163 Barranquilla-Colombia
-          </td>
-        </tr>
-        <tr>
-          <th>
-            Correo:
-          </th>
-          <td>
-            andrescampoe@gmail.com
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="c">
-      (c) acampoe <br>
-      xGarlics
-    </div>
-    <br>
-    <br>
-  </footer>
-  <br>
-</body>
+      <p>
+        <strong>Copyright &copy; All Rights Reserved</strong><br>
+        Andr&eacute;s Campo &#60;acampoe&#62;<br>
+        Andres Ochoa &#60;xgarlics&#62;
+      </p>
+    </footer>
+    <script src="js/master.js" charset="utf-8"></script>
+  </body>
 </html>
