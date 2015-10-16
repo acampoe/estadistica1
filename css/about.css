@@ -1,17 +1,1 @@
-/*Leader Pic*/
-img.osvaldo {
-  height: 270px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 1px;
-  box-shadow: 2px 2px 15px;
-}
-/*Properties for Unordered List of Equipo de Trabajo*/
-#equipo {
-  list-style: none;
-  text-align: center;
-}
-/*Properties for Header 3 in Quienes somos*/
-h3 {
-  text-align: center;
-}
+

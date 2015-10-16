@@ -97,25 +97,12 @@ nav ul li a {
     display: none;
   }
 }
-
-/*End - Navigation Style*/
-
 /*Properties for Header 1 in index.html*/
 h1 {
   text-shadow: 2px 2px 5px;
   font-family: downcome;
   font-weight: normal;
   color: white;
-}
-/*Article in index page*/
-article {
-  margin: 2px;
-  text-align: center;
-  font-size: 18px;
-}
-/*Deuse*/
-article.li {
-  font-size: 18px;
 }
 /*Properties for footer*/
 footer {
@@ -124,18 +111,4 @@ footer {
   padding: 1em;
   box-shadow: 0 0 10px 5px black;
   color: black;
-}
-/*Properties for people fb links*/
-a.trabajo {
-  text-decoration: none;
-}
-a{
-  color: blue;
-}
-/*Icons in CONTACTENOS*/
-.icon{
-  height: 60px;
-}
-img {
-  box-shadow: 0 0 30px 5px black;
 }
